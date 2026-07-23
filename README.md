@@ -1,4 +1,4 @@
-# Get-FileHashes
+# Get-AllHashes
 
 
 
@@ -16,7 +16,7 @@ Hash all files in the current directory:
 
 ```powershell
 
-.\Get-FileHashes.ps1
+.\Get-AllHashes.ps1
 
 ```
 
@@ -28,7 +28,7 @@ Hash files in a specific directory:
 
 ```powershell
 
-.\Get-FileHashes.ps1 -Path D:\Evidence
+.\Get-AllHashes.ps1 -Path D:\Evidence
 
 ```
 
@@ -40,7 +40,7 @@ Hash only specific file types:
 
 ```powershell
 
-.\Get-FileHashes.ps1 -Extension zip
+.\Get-AllHashes.ps1 -Extension zip
 
 ```
 
@@ -48,7 +48,7 @@ Hash only specific file types:
 
 ```powershell
 
-.\Get-FileHashes.ps1 -Extension zip,txt,docx
+.\Get-AllHashes.ps1 -Extension zip,txt,docx
 
 ```
 
@@ -61,7 +61,7 @@ Use a different hashing algorithm:
 
 ```powershell
 
-.\Get-FileHashes.ps1 -Algorithm SHA512
+.\Get-AllHashes.ps1 -Algorithm SHA512
 
 ```
 
@@ -73,7 +73,7 @@ Full example:
 
 ```powershell
 
-.\Get-FileHashes.ps1 -Path D:\Evidence -Algorithm MD5 -Extension zip,txt
+.\Get-AllHashes.ps1 -Path D:\Evidence -Algorithm MD5 -Extension zip,txt
 
 ```
 
