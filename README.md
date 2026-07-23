@@ -1,4 +1,4 @@
-\# Get-FileHashes
+# Get-FileHashes
 
 
 
@@ -6,7 +6,7 @@ Recursively calculate file hashes and export the results to a CSV file.
 
 
 
-\## Usage
+## Usage
 
 
 
@@ -66,7 +66,7 @@ Use a different hashing algorithm:
 
 
 
-\## Parameters
+## Parameters
 
 
 
@@ -82,7 +82,7 @@ Use a different hashing algorithm:
 
 
 
-\## Output
+## Output
 
 
 
@@ -90,13 +90,13 @@ Creates a timestamped CSV containing:
 
 
 
-\- File name
+- File name
 
-\- Full path
+- Full path
 
-\- Hash value
+- Hash value
 
-\- File size (bytes)
+- File size (bytes)
 
 
 
