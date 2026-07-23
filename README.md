@@ -28,7 +28,7 @@ Hash files in a specific directory:
 
 ```powershell
 
-.\Get-FileHashes.ps1 -Path D:\\Evidence
+.\Get-FileHashes.ps1 -Path D:\Evidence
 
 ```
 
@@ -54,6 +54,7 @@ Hash only specific file types:
 
 
 
+
 Use a different hashing algorithm:
 
 
@@ -61,6 +62,18 @@ Use a different hashing algorithm:
 ```powershell
 
 .\Get-FileHashes.ps1 -Algorithm SHA512
+
+```
+
+
+
+Full example:
+
+
+
+```powershell
+
+.\Get-FileHashes.ps1 -Path D:\Evidence -Algorithm MD5 -Extension zip,txt
 
 ```
 
